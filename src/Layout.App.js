@@ -18,7 +18,7 @@ const Layout = () => {
                             alt='logo'
                             className='img_logo' />
                         <a href="index.html" className='logo'>
-                            <h1 className="logo__nombre">Web App</h1>
+                            <h1 className="logo__nombre">Web App con nav</h1>
                         </a>
                     </div>
 
