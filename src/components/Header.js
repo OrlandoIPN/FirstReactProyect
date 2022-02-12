@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 export const Header = () => {
@@ -17,14 +17,13 @@ export const Header = () => {
                     </div>
 
                     <nav className='navegacion'>
-                        <Link to="/Home" className='navegacion_enlace'>Home</Link> 
-                        <Link to="/Items" className='navegacion_enlace'>Items</Link>
-                        <Link to="/Profile" className='navegacion_enlace'>Profile</Link>
-                        <Link to="/LogOff" className='navegacion_enlace'>Logoff</Link>
-                        {/* <a href="#" className='navegacion__enlace'>Home</a>
-                        <a href="#" className='navegacion__enlace'>Items</a>
-                        <a href="#" className='navegacion__enlace'>Profile</a>
-                        <a href="#" className='navegacion__enlace'>Logoff</a> */}
+                        
+                        <NavLink to="/Home" className='navegacion_enlace'>Home</NavLink> 
+                        <NavLink to="/Items" className='navegacion_enlace'>Items</NavLink>
+                        <NavLink to="/Profile" className='navegacion_enlace'>Profile</NavLink>
+                        <NavLink to="/LogOff" className='navegacion_enlace'>Logoff</NavLink>
+                        {/* <Link to="/Home" className='navegacion_enlace'>Home</Link>  */}
+                        
                     </nav>
                 </div>
             </div>
@@ -33,5 +32,6 @@ export const Header = () => {
 }
 
 //rafc snipped
+
 
 

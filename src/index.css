@@ -97,6 +97,10 @@ h2, p {
     padding: 1.5rem;
 }
 
+.active{
+    font-weight: bold;
+}
+
 
 
 .navegacion a:hover{
