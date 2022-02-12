@@ -31,13 +31,15 @@ export const QueueList = () => {
     const [cita, setcita] = useState([]);
 
     return (
-        <>            
+        <>     
+        <section className='entradas'>      
                 {cita.map((item) =>
                     <div className='entradas_div' key={item.id}>
                         <h2>{item.answer}</h2>
                         <p>{item.question}</p>
                     </div>
                 )}
+        </section> 
         </>
     )
 };

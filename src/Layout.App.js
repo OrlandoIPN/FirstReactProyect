@@ -48,9 +48,7 @@ const Layout = () => {
                         className='img_logo' />
                 </div>
             </main>
-            <section className='entradas'>
             <QueueList />
-            </section>
             <footer className='footer'><p>Sticky Footer, All rights reserved 2022.</p></footer>
             
         </div>
