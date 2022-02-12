@@ -16,7 +16,7 @@ export const QueueList = () => {
                 id:cita.id
             }
         })
-        setcita(citas);
+        setCitas(citas);
     }
 
         //Component life cicle :  before renderizing : renderizing : after renderinzing 
@@ -28,7 +28,7 @@ export const QueueList = () => {
         getCitas();
     }, []);
 
-    const [cita, setcita] = useState([]);
+    const [cita, setCitas] = useState([]);
 
     return (
         <>     
