@@ -4,7 +4,7 @@
 //rafce funcional component con export
 
 import React from 'react';
-import { GetAPI } from './components/GetAPI';
+import { QueueList } from './components/QueueList';
 
 
 
@@ -49,9 +49,10 @@ const Layout = () => {
                 </div>
             </main>
             <section className='entradas'>
-            <GetAPI />
+            <QueueList />
             </section>
             <footer className='footer'><p>Sticky Footer, All rights reserved 2022.</p></footer>
+            
         </div>
     </div>;
 };
