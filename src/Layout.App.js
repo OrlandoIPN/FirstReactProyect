@@ -4,6 +4,7 @@
 //rafce funcional component con export
 
 import React from 'react';
+import { Footer } from './components/Footer';
 import { QueueList } from './components/QueueList';
 
 
@@ -49,7 +50,7 @@ const Layout = () => {
                 </div>
             </main>
             <QueueList />
-            <footer className='footer'><p>Sticky Footer, All rights reserved 2022.</p></footer>
+            <Footer />
             
         </div>
     </div>;
