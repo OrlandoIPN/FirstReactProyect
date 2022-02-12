@@ -15,9 +15,10 @@ const Layout = () => {
     return <div>
         <Header />
         <div className='contenido-principal'>
-            <Main />
+            <Main /> 
             <QueueList />
             <Footer />
+
         </div>
     </div>;
 };
