@@ -13,10 +13,6 @@ import { BrowserRouter} from 'react-router-dom';
 const divRoot = document.querySelector('#root');
 
 
-ReactDOM.render(
-    <BrowserRouter>
-    <Router />
-    </BrowserRouter>,
-    divRoot);
+ReactDOM.render(<Router />, divRoot);
 
 

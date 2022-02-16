@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from '../Layout.App'
 import Items from '../routes/Items'
 import LogOff from '../routes/LogOff'
@@ -11,6 +11,7 @@ export const Router = () => {
   return (
     
     <>
+    <BrowserRouter>
     <Header />
     <Routes>
         <Route path='/' element={<Layout />}/>
@@ -20,6 +21,7 @@ export const Router = () => {
         <Route path='logoff' element={<LogOff />}/>
     </Routes>
     <Footer />
+    </BrowserRouter>
     </>
   )
 }
