@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useEffect } from 'react/cjs/react.development';
 
 
-export const QueueList = () => {
+export const QuotesList = () => {
 
     const getCitas = async () => {
         const url = 'https://jservice.io/api/clues?value=100&category=1420&offset=4';

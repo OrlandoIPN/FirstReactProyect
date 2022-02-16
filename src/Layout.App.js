@@ -7,7 +7,7 @@ import React from 'react';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Main } from './components/Main';
-import { QueueList } from './components/QueueList';
+import { QuotesList } from './components/QuotesList';
 
 
 
@@ -16,7 +16,7 @@ const Layout = () => {
         <Header />
         <div className='contenido-principal'>
             <Main /> 
-            <QueueList />
+            <QuotesList />
             <Footer />
 
         </div>
