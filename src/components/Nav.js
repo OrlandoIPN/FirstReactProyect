@@ -10,7 +10,6 @@ export const Nav = () => {
             <NavLink to="/Profile" className='navegacion_enlace'>Profile</NavLink>
             <NavLink to="/LogOff" className='navegacion_enlace'>Logoff</NavLink>
             {/* <Link to="/Home" className='navegacion_enlace'>Home</Link>  */}
-
         </nav>
     )
 }

@@ -15,7 +15,6 @@ export const Header = () => {
                             <h1 className="logo__nombre">Web App con nav</h1>
                         </a>
                     </div>
-
                     <Nav />
                 </div>
             </div>
