@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useEffect } from 'react/cjs/react.development';
 
 
-export const GetAPI = () => {
+export const QuotesList = () => {
 
     const getCitas = async () => {
         const url = 'https://jservice.io/api/clues?value=100&category=1420&offset=4';
@@ -16,7 +16,7 @@ export const GetAPI = () => {
                 id:cita.id
             }
         })
-        setcita(citas);
+        setCitas(citas);
     }
 
         //Component life cicle :  before renderizing : renderizing : after renderinzing 
@@ -28,16 +28,18 @@ export const GetAPI = () => {
         getCitas();
     }, []);
 
-    const [cita, setcita] = useState([]);
+    const [cita, setCitas] = useState([]);
 
     return (
-        <>            
+        <>     
+        <section className='entradas'>      
                 {cita.map((item) =>
                     <div className='entradas_div' key={item.id}>
                         <h2>{item.answer}</h2>
                         <p>{item.question}</p>
                     </div>
                 )}
+        </section> 
         </>
     )
 };
